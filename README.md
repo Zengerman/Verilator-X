@@ -118,7 +118,7 @@ verilator -Wall --cc -O2 -Wno-fatal --top-module vgg16_accelerator \
 We measure total host execution time and total simulation cycles per workload, defining their ratio as kilocycles per second (KCPS). Higher KCPS indicates faster simulation and shorter per-evaluation latency. We also report normalized speedup (SU) over baselines. The hardware is equipped with a PE array of size 64x64 and necessary
 hardware structures. <br>
 
-<img width="710" height="323" alt="image" src="https://github.com/user-attachments/assets/7be61963-2e21-47d5-8fe4-5d4d79948afb" />
+<img width="680" height="311" alt="image" src="https://github.com/user-attachments/assets/b8202cf7-f6d2-4938-9786-51c37fa4a96e" />
 
 
 Meanwhile, Verilator-X generates detailed logs.<br>
