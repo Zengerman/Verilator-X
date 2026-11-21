@@ -1,2 +1,2 @@
 # Verilator-X
-A Hybrid-Abstraction RTL Simulation Framework for Neural Network Accelerators.
+Verilator-X is a Hybrid-Abstraction RTL Simulation Framework for Neural Network Accelerators. This architecture integrates two synergistic techniques: dynamic mapping-aware modeling (DMM), which identifies layer structures and establishes optimized mappings to processing element (PE) arrays, and precision-driven task scoring (PTS), which evaluates layer criticality and selectively replaces non-critical operations with transaction-level simulation (TLM), thereby reducing host simulation time per cycle with negligible accuracy loss. Verilator-X provides both a precise mode for functional verification and an acceleration mode for fast performance estimation.
